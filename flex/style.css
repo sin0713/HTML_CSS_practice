@@ -4,18 +4,70 @@
   box-sizing: border-box;
 }
 
-.flex {
-  background-color: #00c7ce;
-  height: 50vh;
-  padding: 10px;
+header {
+  padding: 30px 20px;
+  background-color: #ff00ff;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+  justify-content: flex-end;
+
 }
 
-.flex > div {
-  background-color: #fff;
-  margin: 5px;
-  font-size: 30px;
+.pink-box {
+  flex-basis: 140px;
+  height: 70px;
+  background-color: #ffc0cd;
+  margin: 0 10px;
 }
+
+.pink-box:first-child {
+  margin-right: auto;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.light-green {
+  background-color: #98fb98;
+  width: 300px;
+}
+
+.green {
+  background-color: #008000;
+  padding: 20px;
+  max-width: 700px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+.yellow-box {
+  background-color: yellow;
+  margin: 10px;
+  flex-basis: 200px;
+  height: 130px;
+
+}
+
+footer {
+  background-color: #6495ed;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blue-box {
+  background-color: #87ceeb;
+  margin: 10px;
+  flex-basis: 45%;
+  max-width: 600px;
+  height: 40px;
+}
+
