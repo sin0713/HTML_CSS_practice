@@ -5,15 +5,15 @@
 }
 
 header {
-  width: 10%;
+  width: 100%;
   padding: 20px;
-  margin: 0 auto;
+  text-align: center;
   
 }
 
 .nav-list {
   border: solid black;
-  border-width: 2px 0;
+  border-width: 1px 0;
   
   text-align: center;
 }
